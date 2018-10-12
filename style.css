@@ -1,0 +1,37 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+#flash{
+    width:950px;
+    height:600px;
+    /* border:1px solid blue; */
+    margin:20px auto;
+    position: relative;
+
+}
+#flash img{
+    width:950px;
+    height:600px;
+    display:none;
+    position: absolute;
+    left:0;
+    top:0;
+    
+}
+#flash ul{
+    position: absolute;
+    left:400px;
+    bottom:23px;
+    overflow:hidden;
+}
+#flash ul li{
+    list-style:none;
+    width:12px;
+    height:12px;
+    background:#DDDDDD;
+    border-radius: 50%;
+    float:left;
+    margin-right:8px;
+}
